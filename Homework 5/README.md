@@ -1,12 +1,12 @@
 pde.py contains a Black-Scholes-Merton PDE calculator. It requires the following variables:
-  S0: The current underlying stock price
-  K: The strike price
-  r: The risk-free rate (as decimal)
-  q: The dividend (as decimal). Enter 0 if there it's not a dividend-paying stock.
-  T: The maturity out of 12 months (if it's one year, enter 1. if it's 6 months, enter 6/12).
-  N: The number of time changes
-  M: The number of stock price changes
-  isEuropean: True for European options, False for American Options
+  1. S0: The current underlying stock price
+  2. K: The strike price
+  3. r: The risk-free rate (as decimal)
+  4. q: The dividend (as decimal). Enter 0 if there it's not a dividend-paying stock.
+  5. T: The maturity out of 12 months (if it's one year, enter 1. if it's 6 months, enter 6/12).
+  6. N: The number of time changes
+  7. M: The number of stock price changes
+  8. isEuropean: True for European options, False for American Options
 
 Using the calculator has four options (in all cases, you should insert your desired variables):
   1. Do BSM_PDE(S0, K, r, q, T, M, N, isEuropean)[3] to find the current option price.
