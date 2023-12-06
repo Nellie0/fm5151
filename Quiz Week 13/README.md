@@ -8,11 +8,11 @@ There are three choices between information: "dictionary", "facts", and "bucket_
 
 Begin building the docker image by running 
 
-        "docker build -t information -f Dockerfile ."
+    docker build -t information -f Dockerfile .
         
 Then to use the app, use 
 
-    "docker run -p 8080:8080 information [type] [arg]" 
+    docker run -p 8080:8080 information [type] [arg]
 
 where:
 
